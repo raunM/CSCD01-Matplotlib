@@ -1,0 +1,66 @@
+Interview for Deliverable 4
+Team 13
+
+1) David
+
+-no task board for later deliverables
+-was painful to update so switched to just using messenger
+and d3 didn't involve too much real dev work anyway
+-messenger show consistent ongoing work
+-confer with head TA
+
+1 / 2
+
+2) Tony
+
+-did demo
+
+2 / 2
+
+3) Andrei
+
+-the feature itself is a facade, but other than no design patterns
+-designed to be easy to use an understand for most users
+-designed to be intuitive (including the ordering of the parameters)
+-didn't make them optional because
+-didn't use keyword args to make more things optional to be easier
+for users with limited knowledge of python
+-wanted to maintain the order
+
+2 / 2
+
+4) Raunak
+
+-arrow heads isn't fully complete yet
+-doing the same thing as acceptance test for d3 but without arrow heads
+-haven't change unit test yet
+	-going to add more test cases
+	-line eqn not in the right format
+	-for empty points list
+	-going to think of more edge cases, but most were though of during
+	d3
+	-will have several test cases for different and invalid line equations
+-think of creates validations method for the input
+
+2 / 2
+
+5) Simon
+
+-still need to do arrow heads
+-more testing
+-error checking
+
+simon - going to be working on adding arrow heads to projection lines
+andrei and ranauk - working on parsing the string into the line and the scatter
+points (error checking that)
+david and tony - are doing testing
+
+at some point code cleanup
+
+-while they were writing their functions, should have done error checking before
+will be harder now
+-could have thought of test cases as functions were growing
+
+Feel as though they've used the time pretty effectively.
+
+1 / 2

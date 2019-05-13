@@ -1,0 +1,79 @@
+CSCD01 -- Deliverable 0 -- Marking Guidelines
+
+1) Introduce the team:    2 out of 4
+
+   All elements presents:  2 mark
+
+     team's name, picture of the entire team, team's goals, team's strengths
+
+   Quality of introduction:
+
+     realistic yet ambitious goals, makes good use of each member's background: 2 mark
+
+-amazing team name!
+-goals are a bit lacking
+-team strengths could use a more personal touch from the background
+of each member
+
+2) Introduce the team members:      4 out of 4
+
+   Approx 150 words each, professionalism, everything is relevant to
+
+     a profile of a software engineer: 2 marks
+
+   The members' introductions are consistent w.r.t. person (in
+
+   first/third person), style, qualities/interests described, etc., so
+
+   that the overall introduction reads well: 2 mark
+
+-some grammar errors
+-length is good
+-format consistent
+-perspective consistent
+-unix philosophy is life
+
+3) Team agreement:     5 out of 6
+
+    
+
+   methods of communication, including wait time for replies, clearly stated:  2
+
+   meeting times arranged:  1
+
+   contingency planning (member is sick, missing meetings, not performing up to standards, etc.):  1
+
+   some planning of individual roles:  2
+
+comms: good
+meetings: good
+contingency: missing plan for member not performing up to standards
+planning: good
+
+4) Project management plan:    5 out of 6
+
+   Plus 1 mark for a thorough, good explanation of each of the
+
+   following. Merely mentioning a tool is not enough (0.5 marks max):
+
+   version control tools (1 free, everyone is using git. 1 for how their branching/pull/push workflow looks like)
+
+   tools to support communication
+
+   website (or alternative) setup
+
+   tools used for planning phases/sprints
+
+   tools used to keep track of progress
+
+   bug/issue tracking tools
+
+version control: good
+comms: good
+website: n/a
+progress / planning: good
+bug tracking: partial
+   
+
+5) Presentation/format:     10 out of 10
+No issues.

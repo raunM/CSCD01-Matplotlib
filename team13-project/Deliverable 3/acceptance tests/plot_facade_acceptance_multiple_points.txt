@@ -1,0 +1,4 @@
+Step 1: Open plot_facade_acceptance_tests
+Step 2: Uncomment line 8 and run the code
+You should see:
+A 3d plot with x,y,z axes ranging from -2 to 2, where there is are two points plotted. One at position (1,1,1) and one at (-1,-1,-1) and there are solid red lines from every axis to the point at (1,1,1), and dotted blue lines with arrowheads from every axis to the point at (-1,-1,-1).

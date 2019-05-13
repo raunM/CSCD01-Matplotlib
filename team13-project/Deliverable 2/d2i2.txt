@@ -1,0 +1,73 @@
+Interview for Deliverable 2 Part 2
+Team 13
+
+1) Ranauk
+
+bugs finished (3):
+-arrow head colour didn't match body
+-x axis and y axis wasn't fitting a long label within them, fixed by truncated
+the text until it fit,
+-garaud, other method was flat but gaurud wasn't working, fixed by catching
+exceptions and modifying input so that it could output something
+-no pr's
+
+-all the rest were dropped by my recommendation
+
+1 / 1
+
+2) David
+
+-truncating label text
+-if label is too long, cannot use tight layout template would warn you
+-now, there are no warning because it will truncate the text in the label
+-replaces with ... for the remainder of the label
+-works for x and y axes
+-fits when text is small enough
+
+2 / 2
+
+3) Andrei
+
+-in tight_layout.py
+-code that was added is three functions at the bottom
+	-proper fit text
+	-check_x_margin
+	-check_y_margin
+-good
+
+2 / 2
+
+4) Simon
+
+-for each of their bugs, involved a specific situation such as colours,
+or tight layout or using garaud so they felt like there weren't test cases
+for these situations, so they felt like it shouldn't affect anything else
+-they use pytest
+-have a bunch of test files for different classes and things
+-should have tested their bugs
+
+2 / 2
+
+5) Tony
+
+-gouraud
+-before just crashed if the value was off (worked with flat)
+-now shows a colourmap
+
+-added in _axes.py
+-it detects if gouraud shading, and if it is catches exceptions
+and adjusts the parameters so that it doesn't fail
+-the cause of it failing, is when x, y differed by more than one, so they
+change the values so that they're in the same range
+-seems to be in the Axes class under the pcolormesh function
+-detects if the params fail in gouraud but work in flat
+
+3 / 3
+
+6) All
+
+-filtered by hard and medium
+-few hard issues to choose from
+-
+
+0 / 1

@@ -1,0 +1,26 @@
+Marking Scheme for Deliverable 3
+Team13
+
+
+Detailed issue descriptions for both issues considered, including UML
+diagrams, code traces, implementation plans for the selected issue.  (5
+marks per issue)
+
+	-Line Facade: (5 / 5 marks)
+	-Polygon Gradient (5 / 5 marks)
+
+
+Acceptance tests for the selected issue.  (3.5 / 5 marks)
+	-formatting of these could be improved
+		-each test could have its own file or function rather
+		than having to uncomment lines
+		-images for what the user should expect would be
+		a lot better
+
+
+Unit tests for the selected issue.  (5 / 5 marks)
+
+
+
+Presentation and Quality of Writing (5 / 5 marks)
+Same guidelines and expectations as before.

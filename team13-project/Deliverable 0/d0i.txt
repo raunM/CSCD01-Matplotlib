@@ -1,0 +1,115 @@
+Notes for Deliverable 0 Interview
+Team 13
+
+Q1
+
+Benjamin's Grooper
+
+Andrei
+
+-intoduced names of the team members
+-very diverse and multi facated
+-here to make a cohesive addition to mpl
+-write good code, not messy
+-all experienced with github
+-all experienced with python, some in c++
+-all familiar with agile
+
+-goals:
+	-stay on top of work, not fall behind
+	-don't underestimate the bug or feature
+	-ensure good communication
+
+	-all going to learn more about rev engineering and working
+	with open source projects
+
+-try not to break mpl
+-good grade in the course
+
+2
+
+Q2
+
+Contingency Lack of Work?
+
+David
+
+-creative idea is online meeting on Thursday, to avoid
+commuting
+-two meeting a week, right before ta meeting, and checkup
+meetings among themselves
+-rotating scrum master (based on seating plan)
+
+Lack of work would be under the drop section
+-ask for my advice or anya's
+-consult the team member before hand to ask them
+about the jobs
+
+Try to divide things very evenly
+
+2
+
+
+Q3
+
+Raunak
+
+-planning on using agile
+-avoid burndown charts
+	-because the statistics weren't very useful
+-plan on just making tasks 
+conbon on github
+
+-using conbon as their software development process
+github has features to facilitate this
+
+-doing planning poker where they assign tasks based on how difficult and
+how long they will take
+
+-do planning poker together
+
+-everyone chooses tasks based on theiur strengths and what they want to do
+-try to have even amount of work for everyone
+
+-felt as though conbon was much easier and simple and they
+have a good interface in github to do this
+
+-make sprint plan during monday
+-check on discord the progress later in the week (Thursday)
+
+3
+
+Q4
+
+Tony
+
+-git is their source control, classroom was using anyway
+familiar with
+	-didn't want svn, because it would be hard to set up
+	-all more familiar with git
+
+-using agile feature kanban
+
+-using dicord for voice and screen sharing
+	-easy to set up
+	-has web app and phone app
+	-also have text chat with channels
+	-better than messenger
+
+-using messenger for general chat
+	-because they all check regularly
+	-can be used as a backup
+
+2 - missing some technologies
+
+Q5
+
+Simon
+
+-they've been looking at mpl in python
+-playing around with it
+-looking classes and their code
+-they've decided to meet up on Friday to find design patterns
+and get the UMLS for mpl
+
+1

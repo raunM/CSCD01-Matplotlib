@@ -1,0 +1,86 @@
+Interview for Deliverable 1
+Team 13
+
+1) Architecture
+
+	i)
+
+	Andrei
+
+	-mpl is broken down into three layers
+		-backend
+		-artist
+		-scripting
+	-backend:
+		-responsible for more basic functions
+		-renderers which implemenet renderer base
+			-take in drawing information and actually render the plot
+			-figurecanvasbase
+				-interface information
+		-primary input events, like keyboard input and mouse events
+		-dependencies on external libraries like pdf and exporting
+	-artist:
+		-responsible for artists (collection of classes which implement artist interface)
+		-graphical components of your plot
+		-two types of artist
+			-one is a container
+			-other is a primitive
+		-primitive artist component is just a graphical component
+		-container can contain other artist has spacing info
+		-figure is part of this
+			-is a container
+			-the top level container
+			-is what is sent to the backend to be plotted
+	-scripting:
+		-essentially a bunch of functions
+		-pyplot contains a bunch of method that interact with artist to create simple plots
+		and interacting with certain plots
+		-kind of like an interface for the user
+		-allows user to perform low level activities
+		-like an api
+
+	2 / 2
+
+	ii) Artist Layer with Backend Layer
+
+	Tony
+
+	-the backend uses the figure from the artist layer to render it
+	-artist creates an object with all the items that need to be drawn
+	-backend actually draws it using the selected backend
+	-could output to a file, or to a screen using different frameworks
+	
+	2 / 2
+
+	iii)
+
+	David
+
+	-something that isn't shown in their diagram is the directory called cbook
+	which contains their own data structures with their own associations like list
+	and set, don't use inheritance and write their own data structures
+	-separate from the three layers but used throughout the applications
+	-lowers the cohesion, raises the coupling
+	-what they could have done is use the adapter, to adapt built in classes already
+	in python
+	-if python were to update their data structures they would have to change theirs as well
+
+	2 / 2
+
+2) Design Patterns
+
+	i) Decorator
+
+	-found decorator in the movie writer registry
+	-shown in code, had trouble explaining
+
+	1 / 2
+
+	ii) Strategy
+
+	Simon
+
+	-explained the strategy pattern
+	-issues finding things in code
+
+	1 / 2

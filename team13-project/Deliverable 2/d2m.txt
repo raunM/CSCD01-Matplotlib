@@ -1,0 +1,31 @@
+Marking Scheme for Deliverable 2
+Team13
+
+Step 1 (5 / 5 Marks)
+	Demonstration of at least 5 bugs.
+
+	Understanding of where each of these bugs is in the code, more or less, or at least understanding
+	where one would start investigation.
+
+	See interview p1.
+
+Step 2 (26 / 30 marks)
+
+At least three bugs are fixed (correctness).  (10 / 10 marks)
+-please commit all of mpl next time
+
+Quality and documentation of changes/fixes:  no hacks!  (4 / 5 marks)
+-gaurud fix seems slightly hacky
+
+A well-designed and well-explained acceptance test suite.  (5 / 5 marks)
+-please have these in a more conspicuous location next time
+
+Clear evidence of a well-structured development process, good use of the repo and of the selected
+project management tools, etc.  (7 / 10 marks)
+-need better commit messages (-2)
+-better use of repo would be to have all mpl code (-1)
+
+
+Presentation and Quality of Writing (5 / 5 marks)
+Same guidelines and expectations as before.
+

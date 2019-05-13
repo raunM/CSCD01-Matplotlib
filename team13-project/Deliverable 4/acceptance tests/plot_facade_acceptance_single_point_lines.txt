@@ -1,0 +1,4 @@
+Step 1: Open plot_facade_acceptance_tests
+Step 2: Uncomment line 7 and run the code
+You should see:
+A 3d plot with x,y,z axes ranging from -2 to 2, where there is a single point plotted at position (1,1,1), and there are dotted black lines from every axis to that point

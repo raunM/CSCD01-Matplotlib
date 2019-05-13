@@ -1,0 +1,4 @@
+Step 1: Open plot_facade_acceptance_tests
+Step 2: Uncomment line 16 and run the code
+You should see:
+A 3d plot with x,y,z axes ranging from -3 to 3, and a dotted green 3d line representing <x,y,z>=<0,0,0>+t<1,1,1> plotted. You should also see the points (2,2,2) and (-2,-2,-2) plotted. There are dotted red lines from the axis to the point at (2,2,2), and solid black lines with arrowheads to the point at (-2,-2,-2).

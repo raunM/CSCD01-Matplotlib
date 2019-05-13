@@ -1,0 +1,98 @@
+Interview for Deliverable 2 Part 1
+Team13
+
+bug1) Raunik
+
+Issue  #: 11759
+Comments: Good issue.
+
+Demoing  bug: 0.5 / 0.5
+Explaination: 0.5 / 0.5
+
+User wanted a gradient of arrows on graph, bodies are correct but, the arrow
+heads don't match.
+
+Think it'll be really hard just to make the arrow heads change colour.
+
+1
+
+bug2) Simon
+
+Issue  #: 5456
+Comments: Looks like it might be solved already.
+
+Demoing  bug: 0.5 / 0.5
+Explaination: 0.5 / 0.5
+
+-tight layout is supposed to prevent the titles of axes from going beyond the figure,
+the bug is saying this isn't working, shouldn't be able to be greater than the top.
+
+-thinking about cutting off the extra text when using tight layout
+-will be solving it a different way, from the PR's listed on the issue page
+by truncating the text if using tight layout
+-probably on the easier side, but will have to look into the method, listed fixes look short
+
+1
+
+bug3) Tony
+Issue  #: 11013
+Comments: Seems like for of a feature request.  How hard would it be?
+
+Demoing  bug: 0.5 / 0.5
+Explaination: 0.5 / 0.5
+
+-certain characters like delta or other greek letters if they are capitalized, they are
+not italiczed.
+
+-works fine for english letters, only for non latex characters as well
+-this bug was found when writing to pdf's
+-will investigate wether or not this is present in the font or if matplotlib
+might not being using it correctly
+-could be a bigger issue if other characters are affected.
+-could be willing to create a italiszed triangle if needed
+
+Should probably avoid this one.
+
+1
+
+bug4) David
+Issue  #: 9056
+Comments: Seems quite easy and may already be solved.  Merged
+
+Demoing  bug: 0.5 / 0.5
+Explaination: 0.5 / 0.5
+
+-when you try to save a figure, uses the figure name, doesn't check for invalid
+characters, windows will throw an error
+-would have to reacreate figure without the characters to fix it
+
+Ideally would avoid this one.
+
+1
+
+bug5) Andrei
+Issue  #: 8422
+Comments: Seems reasonable difficult, but looks like only documentation is left.
+
+Demoing  bug: 0.5 / 0.5
+Explaination: 0.5 / 0.5
+
+-colour mesh has two types of shading, flat and gouraud
+-gouraud fails with certains parameters that work with flat
+-shouldn't crash like it currently does
+-gouraud is just a type of shading.
+
+
+-current fix is sort of a rework of gouraud with different params passed
+-colormesh has the ability to reshape things in order to work and at the very
+least they could implement a warning and reshape using colourmesh
+
+-confident they can get it to produce some kind of shading
+
+Good bug, doing it this way.
+
+
+Extra:
+13131: Good issue if actually bug.
+13035: Could be cood
+13007: Might already be fixed.

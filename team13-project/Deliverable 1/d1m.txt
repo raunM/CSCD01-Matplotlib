@@ -1,0 +1,49 @@
+Marks for Deliverable 1
+
+Overall architecture: 13 / 15
+
+It is clear to the reader that the team correctly understands the architecture of matplotlib.
+ 4 / 5 
+
+3 layers
+-neglected to mention example where a layer accesses another that is not directly below it
+
+
+A reader, initially unfamiliar with the architecture of matplotlib, has a good overview of matplotlib after reading the report.
+ 5 / 5 
+
+
+UML diagrams are correct, clear, and helpful.
+ 4 / 5 
+
+ -missing small connection where scripting layer accesses backend layer
+
+
+
+Design Patterns: 10 / 15
+
+Pattern 1 (Decorator) :  1 / 5
+ 
+      The pattern is actually present in the source code: 0 / 3
+      The diagrams are correct, clear, and helpful: 1 / 2
+
+	  -i don't think this is actually the decorator design pattern
+	  -sequence diagram is not detailed enough at all
+
+Pattern 2 (Strategy) :  4 / 5
+ 
+      The pattern is actually present in the source code: 3 / 3
+      The diagrams are correct, clear, and helpful: 1 / 2
+
+	  -should show tranformnode and transform in uml diagram
+
+Pattern 3 (Facade) :  5 / 5
+ 
+      The pattern is actually present in the source code: 3 / 3
+      The diagrams are correct, clear, and helpful: 2 / 2
+
+	  -good example of facade design pattern
+
+
+Presentation and Quality of Writing: 10 / 10
+

@@ -1,0 +1,83 @@
+Interview for Deliverable 3
+Team13
+
+1) David
+
+-main issue (they're doing this one) is the facade issue, making
+new function which plots specific, basic lines in 3d, can specify
+the points to be connected be a solid or dotted lines, can include colours,
+can specify axis as well (ex. x-axis with an arrow pointing in their respective
+directions)
+	-chose it because they believe since they worked with pyplot alot,
+	it'd be easier, also able to write the tests easier vs creating
+	something completely new (able to reuse image comparison library)
+
+-second issue (3d polgyon gradient issue), there is no 3d gradient shading
+for polgyons, want to make it work with one polygon, planning on doing that
+to make it easier to implement the huge polygon shape (single gradient
+going across multiple polgygons)
+	-only other one available (searched through many), wanted to do
+	web api, didn't know they could pick an issue without the hard tag
+	-api was already taken
+
+2 / 2
+
+2) Tony
+
+-already existing code base for creating these objects
+, basically repacking it for people who aren't familiar with mpl
+-hard part is parsing
+-also difficult is taking equations and turning that into an artist object
+(arrow or line)
+-pyplot is where they are implementing their features
+-adding new method projection plot and parse string to line
+-bottom three classes are the artists that their functions will use
+-chance that they won't include scatter
+
+2 / 2
+
+3) Andrei
+
+-adding gradient shading to a polygon
+-as it currently exists, a polygon is a set of vertices, colour
+is assigned when the polygon is creating
+-implementing a stepping stone for shading a gradient over many polygons
+-function will take in coordinates of the vertices of the polygon
+for each corner of the polygon will have an rgb value attached to it
+-taking two separate lists of the same length
+-poly collections is blank and is there because poly3d collection extends it
+(not sure if they will need parent code)
+-all the functions they need are in poly3dcollection and axes3d
+-all the stuff they're making is in poly3dcollection
+-reason functions already exist, is beacuse they are going to break the
+polygon into many smaller polygons and do linear shading on them
+-as you fill it in, it will become a gradient
+-alternate approach would be to do pixel based gradient, but there isn't
+any existing code to facilitate this
+-so first method is better
+
+2 / 2
+
+4) Simon
+
+-showed acceptance tests
+-just decided that since their doing this manually, wouldn't want
+the person doing too much
+-5 shows all the features are working
+-grouping all of it into one might be chaotic
+
+1.5 / 2
+
+5) Raunak
+
+-using image comparison
+-different line styles
+-colours
+-dotted lines
+-arrow heads
+-wether they provided lines or points
+-testing if they pass the right args, can't pass one point with
+two properties
+-should give back a message
+
+2 / 2

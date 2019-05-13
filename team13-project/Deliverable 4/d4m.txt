@@ -1,0 +1,41 @@
+Marking Scheme for Deliverable 4
+Team 13
+81/100
+
+
+Implementation.  (36 / 40 marks)
+
+	-Correctness.  (20 / 20 marks)
+
+	-Quality, maturity, style, documentation of the code.  (16 / 20 marks)
+-2 parseline() should have been made labelled  private, not to be used by users of pyplot
+-2 Bad variable names like "param0" and "param1"
+
+Testing.  (15 / 20 marks)
+
+
+	-Acceptance testing.  (8 / 10 marks)
+
+	-Unit testing.  (7 / 10 marks)
+-4 Testing not mentioned in the report
+-1 Unit tests not in matplotlib test files
+
+User Guide(s).  (1 / 5 marks)
+-5 Missing user guide.
++1 For a tutorial file.
+Note: user guide should have been in style to the ones that already exist in matplotlib.org
+
+
+Design document.  (5 / 5 marks)
+
+
+Evidence of good software development process.  (10 / 10 marks)
+
+
+Amount of work done compared to other teams (NOT number of fea-
+tures, but overall contribution).  (6 / 10 marks)
+
+
+Presentation and Quality of Writing.  (8 / 10 marks)
+-1 One of the paragraphs in "Implementation" devided between two pages.
+-1 Blank trailing page.
